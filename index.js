@@ -12,6 +12,7 @@ const connection = mysql.createConnection(process.env.DATABASE_URL)
 
 app.get('/', (req, res) => {
     res.send('Hello world!!')
+    res.send('Hello world Csc452')
 })
 
 app.get('/users', (req, res) => {
